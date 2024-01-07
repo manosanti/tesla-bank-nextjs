@@ -2,10 +2,13 @@
 import Img from "next/image";
 
 // Images
-import Mobile from "@/app/imgs/mobile.svg"; // Imagem do celular
+import mobile from "@/app/imgs/mobile.svg"; // Imagem do celular
 import checkCircle from "@/app/imgs/checkCircle.svg"; // Imagem do círculo com check
 import heart from "@/app/imgs/heart.svg"; // Imagem do coração
 import mousePointer from "@/app/imgs/mousePointer.svg"; // Imagem do mouse pointer
+import dolarSign from '@/app/imgs/dollarSign.svg' // Imagem do cifrão
+import smartphone from '@/app/imgs/smartphone.svg' // Imagem do smartphone
+import smile from '@/app/imgs/smile.svg' // Imagem do smile
 
 const OpenYourAccount = () => {
   return (
@@ -27,7 +30,7 @@ const OpenYourAccount = () => {
             alt="Check Circle"
             className="left-[-3.25rem] bottom-48 bg-white w-24 rounded-xl p-7 z-10 absolute"
           />
-          <Img src={Mobile} alt="Mobile" className="relative" />
+          <Img src={mobile} alt="mobile" className="relative" />
         </div>
         <div className="text-start my-auto">
             <div className="mb-7">
@@ -37,24 +40,24 @@ const OpenYourAccount = () => {
 
             <div>
                 <div className="flex items-center mb-7">
-                    <Img src={checkCircle} alt="Check Circle" className="bg-white w-14 rounded p-2 mr-4" />
+                    <Img src={dolarSign} alt="Check Circle" className="bg-white w-14 rounded p-2 mr-4" />
                     <div>
-                        <h3>Seu dinheiro rendendo mais</h3>
-                        <p>Rendem mais que a poupança e você resgata quando quiser</p>
+                        <h3 className="font-semibold text-slate-600">Seu dinheiro rendendo mais</h3>
+                        <p className="text-slate-500">Rendem mais que a poupança e você resgata quando quiser</p>
                     </div>
                 </div>
                 <div className="flex items-center mb-7">
-                    <Img src={checkCircle} alt="Check Circle" className="bg-white w-14 rounded p-2 mr-4" />
+                    <Img src={smartphone} alt="Check Circle" className="bg-white w-14 rounded p-2 mr-4" />
                     <div>
-                        <h3>Seu dinheiro rendendo mais</h3>
-                        <p>Rendem mais que a poupança e você resgata quando quiser</p>
+                        <h3 className="font-semibold text-slate-600">Seu dinheiro rendendo mais</h3>
+                        <p className="text-slate-500">Rendem mais que a poupança e você resgata quando quiser</p>
                     </div>
                 </div>
                 <div className="flex items-center">
-                    <Img src={checkCircle} alt="Check Circle" className="bg-white w-14 rounded p-2 mr-4" />
+                    <Img src={smile} alt="Check Circle" className="bg-white w-14 rounded p-2 mr-4" />
                     <div>
-                        <h3>Seu dinheiro rendendo mais</h3>
-                        <p>Rendem mais que a poupança e você resgata quando quiser</p>
+                        <h3 className="font-semibold text-slate-600">Seu dinheiro rendendo mais</h3>
+                        <p className="text-slate-500">Rendem mais que a poupança e você resgata quando quiser</p>
                     </div>
                 </div>
             </div>

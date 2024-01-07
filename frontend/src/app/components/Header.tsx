@@ -10,7 +10,7 @@ import { FaArrowRight } from "react-icons/fa6"; // Ícone de seta para direita
 
 const Header = () => {
   return (
-    <nav className="flex fixed left-0 right-0 w-full pt-5 max-w-5xl mx-auto items-center justify-between">
+    <nav className="flex absolute left-0 right-0 w-full pt-5 max-w-5xl mx-auto items-center justify-between">
       <div className="flex">
         <Img src={teslaLogo} alt="Tesla Logo" className="mr-8" />
         <ul className="flex">
@@ -29,7 +29,7 @@ const Header = () => {
         </ul>
       </div>
       <div>
-        <Link href={"/login"} className="flex items-center text-white">
+        <Link href={"/login"} className="flex items-center relative text-white">
           Login
           <LuUser2 className="ml-2" />
         </Link>

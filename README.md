@@ -1,6 +1,6 @@
 # 🏛️ Tesla Bank
 
-Bem-vindo ao projeto Tesla Bank! Este é um banco virtual inovador em formato de Landing Page com um design moderno e intuitivo, desenvolvido por mim utilizando <strong>Next.js</strong>. O layout, nome e imagens incríveis foram criadas pelo talentoso <a href="https://github.com/iuricode">Iuricode</a> e está disponível no <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?type=design&node-id=191725-3600&mode=design">Figma</a> aqui.
+Bem-vindo ao projeto Tesla Bank! Este é um banco virtual inovador em formato de Landing Page com um design moderno e intuitivo, desenvolvido por mim utilizando <strong>Next.js</strong>. O layout, nome e imagens incríveis foram criadas pelo talentoso <a href="https://github.com/iuricode">Iuricode</a> e está disponível no <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?type=design&node-id=191725-3600&mode=design">Figma</a>.
 
 <a href="https://tesla-finance-bank.vercel.app" target="_blank">![tesla-bank](https://github.com/manosanti/tesla-bank-nextjs/assets/100389856/8378f9ff-d782-44c2-be72-c362c5575fb5)</a>
 <a href="https://tesla-finance-bank.vercel.app" target="_blank">Clique aqui, ou na imagem para acessar o site ☝️</a>

@@ -13,12 +13,25 @@ Bem-vindo ao projeto Tesla Bank! Este é um banco virtual inovador em formato de
 ## 🛠️ Pré Requisitos:
 
 Antes de começar, certifique-se de ter o Node.js instalado em sua máquina.
+
+## 💾 Como Instalar?
+
+Através do terminal Git, use o seguinte comando:
+```bash
+git clone https://github.com/manosanti/tesla-bank-nextjs.git
+```
+
+Navegue até o diretório do projeto:
+```bash
+cd frontend
+```
+
+Instale as dependências:
 ```bash
 npm install
 ```
 
-## 💾 Como Instalar?
-
+Inicie o servidor:
 ```bash
-git clone https://github.com/manosanti/tesla-bank-nextjs.git
+npm run dev
 ```
